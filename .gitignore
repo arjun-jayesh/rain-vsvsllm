@@ -1,0 +1,37 @@
+# =============================================================================
+# Rain vsvsllm v1.0 — Git Ignore & Proprietary IP Protection Boundary
+# =============================================================================
+
+# Rust build artifacts
+/target/
+**/*.rs.bk
+
+# Monolith blueprint & local extraction scripts (NEVER push to public GitHub)
+RAIN_MONOLITH.md
+extract_workspace.sh
+/notebooks/
+
+# Proprietary Training & Data Curation Engines (Keep local/Colab-only for IP protection)
+# Uncomment the two lines below if publishing ONLY the inference SDK & CLI to public GitHub:
+# /crates/rain-train/
+# /crates/rain-data/
+# /configs/
+
+# Binary shards, datasets, logs & checkpoints
+*.rbin
+*.parquet
+*.jsonl
+*.safetensors
+*.q8.json
+/data/
+/artifacts/
+/checkpoints/
+/logs/
+/dist/
+/tmp/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
