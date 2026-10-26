@@ -1,0 +1,29 @@
+KINBO TECHNOLOGIES SOURCE-AVAILABLE & RESEARCH LICENSE v1.0
+
+Copyright (c) 2026 Arjun Jayesh & Kinbo Apps Private Limited ("Licensor").
+All rights reserved.
+
+1. GRANT OF ACADEMIC & EVALUATION LICENSE
+Subject to the terms and conditions of this License, Licensor hereby grants You a
+non-exclusive, non-transferable, revocable, royalty-free license to view, compile,
+and execute the Rain vsvsllm v1.0 source code and associated model weights solely
+for non-commercial academic research, personal evaluation, and benchmarking.
+
+2. COMMERCIAL & COMPETITIVE RESTRICTIONS
+You may NOT, without prior written authorization from Kinbo Apps Private Limited:
+  (a) Use the Software, architecture specifications, optimizer implementations, or
+      model weights in any commercial product, paid API, or revenue-generating service;
+  (b) Redistribute, sublicense, rebrand, or host derivative copies of the Software
+      or trained checkpoints as a competing language model or SDK;
+  (c) Reverse-engineer, extract, or replicate the proprietary training schedules,
+      manifold optimization pipelines, or curriculum mixtures for commercial training.
+
+3. ATTRIBUTION
+All published benchmarks, academic citations, or evaluation reports utilizing
+Rain vsvsllm v1.0 must include the following attribution:
+  "Rain vsvsllm v1.0 — Engineered by Arjun Jayesh, Kinbo Technologies (2026)."
+
+4. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND DETERMINISTIC FITNESS.
